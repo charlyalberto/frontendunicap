@@ -1,0 +1,196 @@
+html, body {
+  background-color: #b1eea1;
+}
+
+.admin-panel-container {
+  max-width: 600px;
+  margin: 40px auto 0;
+  padding: 45px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+
+}
+
+.admin-panel-title {
+  font-size: 24px;
+  font-family: 'Homemade Apple', cursive;
+  color: #EA4C89; 
+  margin-bottom: 20px;
+}
+
+.admin-form-container {
+  margin-bottom: 20px;
+}
+
+.admin-label {
+  display: block;
+  font-family: 'Roboto', monospace;
+  margin-bottom: 5px;
+}
+
+.admin-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.admin-area {
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.admin-button {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: Bold;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  text-decoration: none;
+  transition: color 100ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.food-list-title {
+  display: block;
+  font-family: 'Homemade Apple', cursive;
+  color: #EA4C89;
+  margin-bottom: 5px;
+}
+
+.food-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.food-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.food-item-image img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.food-item-details {
+  flex: 1;
+}
+
+.food-item-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.food-item-price {
+  font-size: 14px;
+  color: #777;
+}
+
+.buttonAdmin {
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #EA4C89;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  
+ 
+}
+  buttonAdmin:hover {
+    background-color: #EA4C89;
+    box-shadow: 0 0 20px #EA4C89;
+    transform: scale(1.1);
+  }
+  
+  buttonAdmin:active {
+    background-color: #EA4C89;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+
+  .admin-logout-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .admin-logout-button {
+    padding: 5px 10px;
+    margin: 25px;
+    border: 0;
+    border-radius: 8px;
+    background-color: red;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+
+  .food-item-image-url {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    -webkit-box-orient: vertical; 
+ }
+
+  .food-item-button {
+   
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+  }
